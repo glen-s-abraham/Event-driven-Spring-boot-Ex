@@ -1,0 +1,1 @@
+docker container run --name axonserver -p 8024:8024 -p 8124:8124 -v C:/Users/Glen/MS/axondockerdata/data:/data -v C:/Users/Glen/MS/axondockerdata/eventdata:/eventdata -v C:/Users/Glen/MS/axondockerdata/config:/config axoniq/axonserver 
