@@ -1,0 +1,5 @@
+package com.ms.estore.ProductService.controllers;
+
+public class ProductController {
+
+}
