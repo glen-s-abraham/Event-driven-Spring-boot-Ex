@@ -2,11 +2,12 @@ package com.ms.estore.ProductService.controllers;
 
 import java.util.UUID;
 
+import javax.validation.Valid;
+
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,17 +21,16 @@ import com.ms.estore.ProductService.pojos.Product;
 @RequestMapping("/products")
 public class ProductCommandController {
 	
-	private final Environment env;
+	
 	private final CommandGateway commandGateway;
 	
 	@Autowired
-	public ProductCommandController(Environment env, CommandGateway commandGateway) {
-		this.env = env;
+	public ProductCommandController(CommandGateway commandGateway) {
 		this.commandGateway = commandGateway;
 	}
 
 	@PostMapping
-	public String createProduct(@RequestBody Product product) {
+	public String createProduct(@Valid @RequestBody Product product) {
 		CreateProductCommand createProductCommand= CreateProductCommand.builder()
 			.title(product.getTitle())
 			.price(product.getPrice())

@@ -127,7 +127,6 @@ INDEX VERSION 1.131+C:\Users\Glen\MS\.metadata\.plugins\org.eclipse.jdt.core
 2312428614.index
 729099987.index
 3063160666.index
-2783143656.index
 3826125497.index
 257411022.index
 2616492272.index
@@ -158,7 +157,6 @@ INDEX VERSION 1.131+C:\Users\Glen\MS\.metadata\.plugins\org.eclipse.jdt.core
 2629608651.index
 366161040.index
 4187061966.index
-993926825.index
 2372992289.index
 1300266589.index
 13086866.index

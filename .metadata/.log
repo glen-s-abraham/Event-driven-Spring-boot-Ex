@@ -8210,3 +8210,18 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 10:05:48.807
 !MESSAGE executing callback sts4.classpath.sTqpKwOe SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 12:51:29.411
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 12:51:29.418
+!MESSAGE classpath=189 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 12:51:29.425
+!MESSAGE buffering callback sts4.classpath.sTqpKwOe ProductService false 189
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 12:51:29.425
+!MESSAGE executing callback sts4.classpath.sTqpKwOe 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-24 12:51:29.460
+!MESSAGE executing callback sts4.classpath.sTqpKwOe SUCCESS [done]
